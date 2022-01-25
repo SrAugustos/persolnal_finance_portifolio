@@ -1,4 +1,3 @@
-import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'dart:html' as html;
 
@@ -16,6 +15,7 @@ class HomeController extends ChangeNotifier {
   }
 
   openRepo() {
-    html.window.open('https://github.com/SrAugustos/SrAugustos', 'name');
+    html.window.open(
+        'https://github.com/SrAugustos/persolnal_finance_portifolio', 'name');
   }
 }
